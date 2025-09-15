@@ -3,14 +3,19 @@ nav {
     padding: 10px
 }
 
-nav {
-    color: white;
+nav a {
+    color: darkblue;
     display: block;
-    padding: 20;
+    padding: 20px;
 }
 
 h1 {
     color: darkblue;
+}
+
+main {
+    background-color: rgb(155, 156, 129);
+    max-width: 840px;
 }
 
 main img {
@@ -22,7 +27,7 @@ main img {
 }
 
 p {
-    padding: 10px;
+    padding: 0;
 }
 
 aside {
@@ -30,7 +35,7 @@ aside {
     margin: 1em;
     border: 3px solid rgba(6, 43, 10, 0.2)/* 1 */;
     padding: 1em;
-    background-color: rgb(142, 169, 250);
+    background-color: rgb(155, 156, 129);
     color: #333;
     text-align: center;
 }
