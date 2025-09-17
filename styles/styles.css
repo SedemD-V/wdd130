@@ -2,7 +2,6 @@
     --color: darkblue;
     --background-color: rgb(155, 156, 129);
     --text-align: center;
-    --height: auto;
 }
 
 nav {
@@ -27,7 +26,7 @@ main {
 
 main img {
     width: 150px;
-    height: var(--height);
+    height: auto;
     border: 1px solid steelblue;
     padding: 2px;
     box-shadow: 0 0 30px gray;
@@ -50,7 +49,7 @@ aside {
 
 aside img {
     width: 200px;
-    height: var(--height);
+    height: auto;
 }
 
 footer {
