@@ -82,7 +82,7 @@ button:hover{
 
 textarea{
     height: 50px;
-    width: 250px;
+    width: auto;
 }
 
 footer {
