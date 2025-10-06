@@ -24,13 +24,11 @@
     </header>
     <main>
         <div class="contact-info">
-            <strong>
-                <h1>The Rapids Rafting Company</h1>
-                <p>123 Main River Street</p>
-                <p>Kolob Carlifornia</p>
-                <p>+ 12 533 847 8830</p>
-                <p>info@therapidsraftingcompany.com</p>
-            </strong>
+            <h1>The Rapids Rafting Company</h1>
+            <p>123 Main River Street</p>
+            <p>Kolob Carlifornia</p>
+            <p>+ 12 533 847 8830</p>
+            <p>info@therapidsraftingcompany.com</p>
         </div>
         <div class="contact-container">
             <div>
@@ -40,37 +38,35 @@
                 </iframe>
             </div>
             <form>
-                <strong>
-                    <fieldset class="form">
+                <fieldset class="form">
+                    <div>
+                        <Label for="fullname">Full Name</Label>
+                        <input type="text" id="fullname" name="fullname" placeholder="John Doe"><br>
+                    </div>
+                    <div>
+                        <label for="useremail">Email Add</label>
+                        <input type="email" id="useremail" name="useremail" placeholder="johndoe@mail.com">
+                    </div>
+                    <div>
+                        <label>Message purpose</label>
                         <div>
-                            <Label for="fullname">Full Name</Label>
-                            <input type="text" id="fullname" name="fullname" placeholder="John Doe"><br>
+                            <input type="radio" id="general" name="purpose" value="general">
+                            <label for="general">General Enquiry</label><br>
+                            <input type="radio" id="reservation" name="purpose" value="reservation">
+                            <label for="reservation">Reservation Question</label><br>
+                            <input type="radio" id="suggestion" name="purpose" value="suggestion">
+                            <label for="suggestion">Website Suggestion</label><br>
                         </div>
-                        <div>
-                            <label for="useremail">Email Add</label>
-                            <input type="email" id="email" name="useremail" placeholder="johndoe@mail.com">
-                        </div>
-                        <div>
-                            <label for="purpose">Message purpose</label>
-                            <div>
-                                <input type="radio" id="general" name="purpose" value="general">
-                                <label for="general">General Enquiry</label><br>
-                                <input type="radio" id="reservation" name="purpose" value="reservation">
-                                <label for="reservation">Reservation Question</label><br>
-                                <input type="radio" id="suggestion" name="purpose" value="suggestion">
-                                <label for="suggestion">Website Suggestion</label><br>
-                            </div>
-                        </div>
-                        <div>
-                            <label for="message">Message</label><br>
-                            <textarea name="message" id="message" placeholder="Type here"></textarea>
-                        </div>
-                        <div>
-                            <input type="checkbox" id="subscription" name="subscription">
-                            <label for="subscription">Please subscribe me to the monthly newsletter</label>
-                        </div>
-                    </fieldset>
-                </strong>
+                    </div>
+                    <div>
+                        <label for="message">Message</label><br>
+                        <textarea name="message" id="message" placeholder="Type here"></textarea>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="subscription" name="subscription">
+                        <label for="subscription">Please subscribe me to the monthly newsletter</label>
+                    </div>
+                </fieldset>
                 <button type="submit">Get in touch!</button>
             </form>
         </div>
