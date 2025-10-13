@@ -34,6 +34,63 @@ h1, h2, h3, h4 {
     background-color: var(--accent1-color);
 }
 
+.home-hero {
+    position: relative;
+}
+
+.home-hero img {
+    width: 100%;
+    height: auto;
+}
+
+.home-hero h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 3rem;
+    text-shadow: 2px 2px 5px black;
+}
+
+.home{
+    background-color: #00000000;
+    color: white
+}
+
+.newsletter {
+  background-color: #0a0a87; 
+  color: white;
+  padding: 2rem;
+  text-align: center;
+  border-radius: 10px;
+  width: 80%;
+  margin: 2rem auto;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.newsletter input {
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+.newsletter button {
+    background-color: #ffcc00;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.newsletter button:hover {
+    background-color: #ffd633;
+}
+
+
 .hero h1 {
     position: absolute;
     top: 20px;
@@ -348,4 +405,94 @@ button:hover {
 .contact-container .form label {
     display: inline;
     margin-right: 10px;
+}
+
+/*  TRIPS PAGE STYLES */
+
+.trips-hero {
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+.trips-hero h2 {
+    color: white;
+    font-size: 2.5em;
+    margin: 0 0 10px 0;
+}
+.cta-button {
+    display: inline-block;
+    background-color: var(--accent1-color);
+    color: white;
+    padding: 15px 30px;
+    margin-top: 20px;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 8px;
+}
+.cta-button:hover {
+    background-color: blue;
+}
+
+.trip-descriptions {
+    padding: 20px 5%;
+}
+.trip-descriptions h2 {
+    text-align: center;
+    margin: 0 0 40px 0;
+    font-size: 2em;
+    color: var(--primary-color);
+}
+.trip-card {
+    display: grid;
+    grid-template-columns: 1fr 2fr; 
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+    padding: 20px;
+    align-items: center;
+}
+.trip-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.trip-info h3 {
+    color: var(--primary-color);
+    margin-top: 0;
+    font-size: 1.8em;
+}
+.trip-info ul {
+    list-style: none;
+    padding-left: 0;
+}
+.trip-info ul li {
+    padding-left: 25px;
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+
+.trips-table-section {
+    padding: 20px 5%;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.trips-data-table {
+    width: 90%;
+    max-width: 900px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.trips-data-table th, .trips-data-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+    background-color: white;
+}
+.trips-data-table thead {
+    background-color: var(--primary-color);
+    color: white;
 }
